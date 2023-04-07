@@ -1,0 +1,13 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://stage.ludidoctimelog.com/login/,,
+2,Username,Enter the value [<Data>] in the Field [<Object>],Set,@Automation_Client Admin,,DocTime
+3,Password,Enter the value [<Data>] in the Field [<Object>],Set,@Test@123,,DocTime
+4,form_button_login,"Click the [<Object>] ",Click,,,DocTime
+5,form_select_site,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@Ludi Automation - Normal Client,,DocTime
+6,Duties,"Click the [<Object>] ",clickByJS,,,DocTime
+7,Add Duty,"Click the [<Object>] ",Click,,,DocTime
+8,frm_name,Enter the value [<Data>] in the Field [<Object>],Set,@test,,DocTime
+9,frm_duty_group_id,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@On-Call,,DocTime
+10,Add Duty1,"Click the [<Object>] ",Click,,,DocTime
+11,ui-search-button,"Click the [<Object>] ",Click,,,DocTime
+12,Browser,Accept the alert present,acceptAlert,,,

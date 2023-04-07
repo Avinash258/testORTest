@@ -1,0 +1,154 @@
+<Root type="OR" ref="Demo">
+  <Page title="DocTime Log" ref="DocTime">
+    <ObjectGroup ref="Username">
+      <Object frame="" ref="Username">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="login" ref="name" pref="2"/>
+        <Property value="form_input_login" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='login']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div[2]/div/div/form/input" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="#form_input_login" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;text&quot; autocomplete=&quot;dtl-username&quot; name=&quot;login&quot; id=&quot;form_input_login&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="form_button_login">
+      <Object frame="" ref="form_button_login">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="form_button_login" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="/body/div/div/div[2]/div/div/form/div[2]/div" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/div[2]/div/div/form/div[2]/div)[1]" ref="xpath" pref="6"/>
+        <Property value="ui-dtl-button type-1" ref="class" pref="7"/>
+        <Property value="#form_button_login" ref="css" pref="8"/>
+        <Property value="div" ref="type" pref="9"/>
+        <Property value="&lt;div class=&quot;ui-dtl-button type-1 disabled&quot; id=&quot;form_button_login&quot; disabled=&quot;disabled&quot;>Login&lt;/div>" ref="outerHTML" pref="10"/>
+        <Property value="div" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="form_select_site">
+      <Object frame="" ref="form_select_site">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="form_select_site" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div[2]/div/select" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="#form_select_site" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Duties">
+      <Object frame="" ref="Duties">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="Duties" ref="link_text" pref="4"/>
+        <Property value="(//a[contains(normalize-space(text()),'Duties')])[1]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div[2]/div/div/ul/li[2]/ul/li[2]/a" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html.fontawesome-i2svg-active.fontawesome-i2svg-complete > body > div.container > div.ui-dtl-header > div.ui-dtl-top-bar.default admin > div.grid-x.align-justify ui-dtl-menu-hospitals align-middle > div.cell.small-9 ui-dtl-top-bar-menu > ul.dropdown.menu dtl-menu-1 text-left > li.is-dropdown-submenu-parent.opens-right is-active > ul.menu.submenu is-dropdown-submenu first-sub vertical js-dropdown-active > li.is-submenu-item.is-dropdown-submenu-item > a" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Add Duty">
+      <Object frame="" ref="Add Duty">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="Add Duty" ref="link_text" pref="4"/>
+        <Property value="//a[contains(normalize-space(text()),'Add Duty')]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div[2]/div/div/div/div/div/span/div[3]/a" ref="xpath" pref="6"/>
+        <Property value="ui-state-default ui-corner-all ui-btn-hover ui-btn-add ui-button ui-widget" ref="class" pref="7"/>
+        <Property value="html.fontawesome-i2svg-active.fontawesome-i2svg-complete > body > div.container > div.text-left.ui-dtl-content > div.content > #body_admin > #duties_search > div.ui-custom-wrp.ui-widget ui-widget-content ui-corner-all > div.ui-dialog-titlebar.ui-widget-header ui-corner-all ui-helper-clearfix ui-state-default > #ui-dialog-title-dialog > div.ui-wrp-dialog-new > a.ui-state-default.ui-corner-all ui-btn-hover ui-btn-add ui-button ui-widget" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="frm_name">
+      <Object frame="" ref="frm_name">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="frm_name" ref="name" pref="2"/>
+        <Property value="frm_name" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="/body/div[3]/div[2]/div/table/tbody/tr/td/table/tbody/tr/td/input" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[3]/div[2]/div/table/tbody/tr/td/table/tbody/tr/td/input)[1]" ref="xpath" pref="6"/>
+        <Property value="frm-required" ref="class" pref="7"/>
+        <Property value="#frm_name" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="frm_duty_group_id">
+      <Object frame="" ref="frm_duty_group_id">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="frm_duty_group_id" ref="name" pref="2"/>
+        <Property value="frm_duty_group_id" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select[@name='frm_duty_group_id']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[3]/div[2]/div/table/tbody/tr/td/table/tbody/tr[2]/td/select" ref="xpath" pref="6"/>
+        <Property value="frm-required" ref="class" pref="7"/>
+        <Property value="#frm_duty_group_id" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Add Duty1">
+      <Object frame="" ref="Add Duty1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//button[@type='button'])[3]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[3]/div[3]/div/button" ref="xpath" pref="6"/>
+        <Property value="ui-button ui-corner-all ui-widget" ref="class" pref="7"/>
+        <Property value="html.fontawesome-i2svg-active.fontawesome-i2svg-complete > body > div.ui-dialog.ui-corner-all ui-widget ui-widget-content ui-front ui-dialog-buttons ui-draggable ui-resizable > div.ui-dialog-buttonpane.ui-widget-content ui-helper-clearfix > div.ui-dialog-buttonset > button.ui-button.ui-corner-all ui-widget" ref="css" pref="8"/>
+        <Property value="button" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="ui-search-button">
+      <Object frame="" ref="ui-search-button">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="ui-search-button" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//div[2]/button" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div[2]/div/div/div/div/div/span/div[2]/button" ref="xpath" pref="6"/>
+        <Property value="ui-btn-search ui-button ui-corner-right ui-widget ui-corner-all" ref="class" pref="7"/>
+        <Property value="#ui-search-button" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password">
+      <Object frame="" ref="Password">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="password" ref="name" pref="2"/>
+        <Property value="form_input_password" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@name='password']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div[2]/div/div/form/div/input" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="#form_input_password" ref="css" pref="8"/>
+        <Property value="password" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>
